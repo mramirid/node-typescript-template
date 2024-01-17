@@ -8,14 +8,15 @@
     "type-check": "tsc --noEmit"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "dependencies": {
-    "@tsconfig/node-lts-strictest": "^18.12.1",
-    "ts-node": "^10.9.1"
+    "ts-node": "^10.9.2"
   },
   "devDependencies": {
-    "nodemon": "^2.0.22",
-    "typescript": "^4.9.4"
+    "@tsconfig/node-lts-strictest": "^18.12.1",
+    "@types/node": "^20.11.4",
+    "nodemon": "^3.0.3",
+    "typescript": "^4.9.5"
   }
 }
